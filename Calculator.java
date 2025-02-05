@@ -1,4 +1,11 @@
+
 package Challenges_Solving_Problems84;
+
+/*
+In a class Calculator , crate multiple add()  methods that
+overload each other and can sum two integer , three  integer , or two dobule 
+demostrate how each can be called with diffrent number of parameters.
+ */
 
 public class Calculator {
 
