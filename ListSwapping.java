@@ -1,0 +1,28 @@
+package Collection_Framework.Challenges;
+
+import java.util.Arrays;
+import java.util.List;
+
+/*
+
+Write a method that swaps two element in an ArrayList, given thier indicas
+
+ */
+public class ListSwapping {
+    public static void main(String[] args) {
+
+        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8);
+        System.out.println(list);
+        swap(list,2 ,5);
+        System.out.println(list);
+
+    }
+
+    public static void swap(List<Integer> list, int x , int y){
+         int swap = list.get(x);
+         list.set(x, list.get(y));
+        list.set(y, list.get(x));
+        list.set(y,swap);
+    }
+
+}
